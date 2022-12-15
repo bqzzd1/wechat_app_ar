@@ -2,8 +2,8 @@ const cameraBusiness = require('../../utils/cameraBusiness.js')
 // 画布id
 const canvasId = 'canvas1';
 // 机器人模型，带动画。
-// const robotUrl = 'https://m.sanyue.red/demo/gltf/robot.glb';
-const robotUrl = 'http://www.bqzzd.cn/robot.glb';
+const robotUrl = 'https://m.sanyue.red/demo/gltf/robot.glb';
+// const robotUrl = 'http://www.bqzzd.cn/tera_homunculus.glb';
 // webgl画面录制器的帧数
 const recorderFPS = 30
 // webgl画面录制器的最长录制时间（单位：秒）

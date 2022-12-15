@@ -58,6 +58,8 @@ function initWorldTrack(model) {
 function loadModel(modelUrl, callback) {
 
     var loader = new THREE.GLTFLoader();
+    console.log(modelUrl);
+    console.log('model地址.....')
     wx.showLoading({
         title: 'Loading Model...',
     });
